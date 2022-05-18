@@ -25,12 +25,14 @@ header .logo{
     color: rgb(10, 0, 0);
     cursor: pointer;
 }
+
 .container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem 0 0 0;
+    background-image:url("small-color-post-its.png");
 }
 form{
     width: 500px;
