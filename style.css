@@ -28,11 +28,13 @@ header .logo{
 
 .container{
     width: 100%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem 0 0 0;
     background-image:url("small-color-post-its.png");
+
 }
 form{
     width: 500px;
