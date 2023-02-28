@@ -49,3 +49,7 @@ function updateLs() {
     });
     localStorage.setItem("notes", JSON.stringify(arr));
 }
+/*Adding Drag and Drop Functionality*/
+/*Adding option to change background color to navigation*/
+
+/*Adding Sticky Note Change Functionality*/
