@@ -53,3 +53,4 @@ function updateLs() {
 /*Adding option to change background color to navigation*/
 
 /*Adding Sticky Note Change Functionality*/
+

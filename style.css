@@ -94,6 +94,8 @@ input:placeholder-shown{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+
 .card{
     background: #fff;
     padding: 1rem 1.5rem 1rem;
@@ -101,6 +103,9 @@ input:placeholder-shown{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     margin: 1rem 2rem;
+/*added this to make sure words wrap properly*/
+    overflow:hidden;
+    word-wrap: break-word;
 }
 .card h3{
     font-size: 1.9rem;
@@ -155,3 +160,6 @@ footer{
 /*Adding option to change background color to navigation*/
 
 /*Adding Sticky Note Change Functionality*/
+
+/*Adding text wrap to cards*/
+
