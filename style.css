@@ -143,6 +143,39 @@ input:placeholder-shown{
     transition: all 0.4s;
     color: #fff;
 }
+
+/*Adding Change Color Button Styling*/
+#backgroundColorButton{
+  padding: 8px 15px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background:lightskyblue;
+  color: rgb(66, 65, 65);
+}
+#backgroundColorButton:hover{
+  background: blue;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #root{
     display: flex;
     flex-wrap: wrap;
@@ -163,3 +196,4 @@ footer{
 
 /*Adding text wrap to cards*/
 
+/*Adding Navigation Bar*/

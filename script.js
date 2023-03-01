@@ -32,6 +32,7 @@ function addNotes(obj) {
         notesElement.appendChild(card);
         updateLs()
     }
+    /*Deletes the users note*/
     let deleteNote=card.querySelector(".delete");
     deleteNote.addEventListener('click', ()=>{
         card.remove();
@@ -54,3 +55,19 @@ function updateLs() {
 
 /*Adding Sticky Note Change Functionality*/
 
+function setBgColor(e) {
+    e.preventDefault();
+    
+    var newBackgroundColor = prompt("Change The Background Color! \nEnter a color name, hex value, or RGBA value. Hint: try typing purple.");
+    if (newBackgroundColor) {
+      document.body.style.background = newBackgroundColor;
+      document.getElementById('result').innerText = "You have changed the background color to "+newBackgroundColor+".";
+    } else {
+      document.body.style.background = "white";
+      document.getElementById('result').innerText = "Nothing was entered.";
+    }
+  
+  }
+  
+  document.getElementById('backgroundColorButton').addEventListener('click', setBgColor);
+  
